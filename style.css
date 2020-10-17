@@ -1,0 +1,131 @@
+body {
+    font: 75% Verdana, Helvetica, sans-serif;
+    background: #000000;
+    color: #9DA2A8;
+}
+
+div#frame {
+    width: 650px;
+    margin: 0 auto 0 auto;
+}
+
+div#sunlogo {
+    text-align: right;
+}
+
+div#body {
+    border: 1px solid #9DA2A9;
+    background-color: black;
+}
+
+/*div#body div:hover {
+    background-color: #222222;
+}*/
+
+div#header {
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 5px;
+    margin-right: -10px;
+    margin-left: -10px;
+    border: 1px solid #9DA2A8;
+}
+
+div#body div#header {
+    background-color: black;
+}
+
+div#header img {
+    vertical-align: middle;
+}
+
+div#main {
+    text-align: justify;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 3px;
+    padding-bottom: 4px;
+    margin-top: 5px;
+    margin-right: -10px;
+    margin-left: -10px;
+    margin-bottom: 5px;
+    border: 1px solid #9DA2A8;
+    background-color: black;
+}
+
+div.menu {
+    text-align: center;
+    font-size: 0.9em;
+    border: 1px solid #9DA2A8;
+    margin-left: -4px;
+    margin-right: -4px;
+    padding: 2px;
+}
+
+div#subfooter {
+    padding: 0;
+    margin-top: 5px;
+    margin-bottom: 8px;
+    margin-right: -10px;
+    margin-left: -10px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border: 1px solid #9DA2A8;
+    background-color: black;
+}
+
+div#subfooter div {
+    margin-top: 2px;
+    margin-bottom: -2px;
+}
+
+div#footer {
+    padding: 2px;
+    font-size: 0.9em;
+}
+
+a, a:visited {
+    color: #CCCCFF;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #DDD;
+}
+
+img {
+    margin: 1px;
+}
+
+a:visited img, a:link img {
+    border: 1px solid #CCCCFF;
+}
+
+a img:hover {
+    border: 1px solid #DDD;
+}
+
+p {
+    text-align: justify;
+    padding: 3px;
+}
+
+/*p:hover {
+    background: #282828;
+    border: 1px dashed #9DA2A8;
+    padding: 2px;
+}*/
+
+h1 {
+    font-size: 1.3em;
+}
+
+h2 {
+    font-size: 1.2em;
+}
+
+h3 {
+    font-size: 1.1em;
+}
